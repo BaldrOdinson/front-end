@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+  frontend:
+    build: .
+    image: sheroukhov/frontend:v1
+    ports:
+      - 8079
+
